@@ -1,12 +1,12 @@
 for num in range(1, 51):
-    output = ""
+    saida = ""
     
     if num % 3 == 0:
-        output += "Fizz"
+        saida += "Fizz"
     if num % 5 == 0:
-        output += "Buzz"
+        saida += "Buzz"
     
-    if output == "":
-        output = str(num)
+    if saida == "":
+        saida = str(num)
     
-    print(f"Número {num}: {output}")
+    print(f"Número {num}: {saida}")
